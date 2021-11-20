@@ -1,0 +1,45 @@
+.heading {
+  color: white;
+  text-align: center;
+  margin: 5rem;
+}
+.headingspan {
+  color: orange;
+}
+.DealSection {
+  margin-bottom: 12rem;
+}
+.Topdeal1,
+.Topdeal2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxdeal {
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  color: white;
+  width: 10rem;
+  height: 18rem;
+  margin-bottom: 3rem;
+  padding: 3rem 4rem;
+  text-align: center;
+  box-shadow: 8px 9px 10px gray;
+}
+.boxdeal:hover {
+  box-shadow: 13px 14px 15px gray;
+  transition: 0.5s all;
+}
+.boxdeal button {
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid white;
+}
+.boxdeal button:hover {
+  background-color: orange;
+  transition: 0.5s all;
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+}
+navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.navlinks {
+  display: inline-block;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.logo {
+  height: 3.8rem;
+  border-radius: 50rem;
+  user-select: none;
+}
+.navlinks:hover {
+  color: orange;
+  transition: 0.5s all;
+}
