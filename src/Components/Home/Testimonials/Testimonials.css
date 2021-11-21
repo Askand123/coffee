@@ -8,15 +8,17 @@
 }
 .TestimonialsSection {
   color: white;
+  padding-bottom: 5rem;
 }
 .Testboxesdiv {
   display: flex;
 }
 .TestBox {
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.365);
   width: 25%;
   padding: 2rem;
   margin: 1rem;
+  box-shadow: 9px 10px 11px grey;
 }
 .Stars i {
   color: gold;
