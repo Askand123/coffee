@@ -1,0 +1,15 @@
+.heading {
+  color: white;
+  text-align: center;
+  margin: 5rem;
+}
+.headingspan {
+  color: orange;
+}
+.TestimonialsSection {
+  color: white;
+}
+.TestBox {
+  border: 2px solid white;
+  width: 25%;
+}
