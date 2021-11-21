@@ -9,7 +9,48 @@
 .TestimonialsSection {
   color: white;
 }
+.Testboxesdiv {
+  display: flex;
+}
 .TestBox {
   border: 2px solid white;
   width: 25%;
+  padding: 2rem;
+  margin: 1rem;
+}
+.Stars i {
+  color: gold;
+  margin-right: 1rem;
+}
+.Stars .bigstar {
+  font-size: 2rem;
+}
+.Stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img {
+  margin: 0 2rem;
+}
+.image i {
+  font-size: 1.5rem;
+}
+.image i:hover {
+  color: gold;
+  transition: 0.5s all;
+}
+.Comment {
+  text-align: center;
+}
+.Comment p {
+  padding: 1rem;
+  color: white;
+  background-color: rgba(255, 251, 251, 0.256);
 }

@@ -10,7 +10,7 @@ export default function Testimonials() {
     return (
         <div className="TestimonialsSection">
             <h1 className="heading">Testi<span className="headingspan">Monials</span></h1>
-        
+    <div className="Testboxesdiv">
         <div className="TestBox">
             <div className="Stars">
                 <i class="fas fa-star"></i>
@@ -25,9 +25,46 @@ export default function Testimonials() {
                 <i class="fab fa-instagram"></i>
             </div>
             <div className="Comment">
-                <h1>Wonder Full Website</h1>
+                <h1>Askand Singh</h1>
                 <p>The website was very beautiful and Awesome And the service provided by Dark horse Coffee is Mind blowing, order delivered in just 5 to 6 working hours Loved this website </p>
             </div>
+        </div>
+        <div className="TestBox">
+            <div className="Stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star bigstar"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div className="image">
+                <i class="fab fa-facebook"></i>
+                <img src={user2} alt="user"/>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div className="Comment">
+                <h1>Gauri Singh</h1>
+                <p>The website was very beautiful and Awesome And the service provided by Dark horse Coffee is Mind blowing, order delivered in just 5 to 6 working hours Loved this website </p>
+            </div>
+        </div>
+        <div className="TestBox">
+            <div className="Stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star bigstar"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div className="image">
+                <i class="fab fa-facebook"></i>
+                <img src={user3} alt="user"/>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div className="Comment">
+                <h1>Karan Singh</h1>
+                <p>The website was very beautiful and Awesome And the service provided by Dark horse Coffee is Mind blowing, order delivered in just 5 to 6 working hours Loved this website </p>
+            </div>
+        </div>
         </div>
         </div>
     )
