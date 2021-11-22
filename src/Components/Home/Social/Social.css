@@ -1,0 +1,22 @@
+.SocialSection {
+  padding-bottom: 10rem;
+  padding-top: 4rem;
+  background-image: url(./assets/about-img.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SocialSection i {
+  color: white;
+  font-size: 2.5rem;
+}
+.SocialSection i:hover {
+  color: orange;
+  transition: 0.5s all;
+}
+.SocialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

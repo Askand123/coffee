@@ -12,13 +12,19 @@
 }
 .Testboxesdiv {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .TestBox {
   border: 2px solid rgba(255, 255, 255, 0.365);
   width: 25%;
-  padding: 2rem;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 2rem;
   box-shadow: 9px 10px 11px grey;
+}
+.TestBox:hover {
+  transform: scale(1.12);
+  transition: 0.5s all;
 }
 .Stars i {
   color: gold;
@@ -40,6 +46,7 @@
 }
 .image img {
   margin: 0 2rem;
+  border-radius: 50rem;
 }
 .image i {
   font-size: 1.5rem;
