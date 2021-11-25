@@ -1,0 +1,32 @@
+footer {
+  height: 22rem;
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+}
+.footerheading {
+  text-align: center;
+}
+hr {
+  color: orange;
+}
+.FooterListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.FooterList li:hover {
+  color: orange;
+  transition: 0.5s all;
+}
+.FooterFooter {
+  background-color: orange;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}

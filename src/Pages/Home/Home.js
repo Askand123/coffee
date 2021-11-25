@@ -1,5 +1,6 @@
 import React from 'react'
 import Branch from '../../Components/Home/Branch/Branch'
+import Footer from '../../Components/Home/Footer/Footer'
 import Hero from '../../Components/Home/Hero/Hero'
 import Navbar from '../../Components/Home/Navbar/Navbar'
 import Partner from '../../Components/Home/Partner/Partner'
@@ -19,6 +20,7 @@ export default function Home() {
             <Testimonials />
             <Partner />
             <Social />
+            <Footer />
         </div>
     )
 }
